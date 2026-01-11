@@ -6,11 +6,9 @@ export const GET = async (req: NextRequest) => {
   try {
     const { searchParams } = new URL(req.url);
 
-    // Ambil params dan konversi null menjadi undefined agar sesuai interface
     const category = searchParams.get("category") || undefined;
     const search = searchParams.get("search") || undefined;
 
-    // Cukup satu kali panggil, biarkan service yang memfilter
     const data = await getAchievementsData({ category, search });
 
     return NextResponse.json(data, { status: 200 });
