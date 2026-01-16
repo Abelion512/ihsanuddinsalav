@@ -10,8 +10,8 @@ const Home = () => {
       <Introduction />
       <Breakline className="my-8" />
       <SkillList />
-      <Breakline className="my-8" />
-      <BentoGrid />
+      {/* <Breakline className="my-8" /> */}
+      {/* <BentoGrid /> */}
     </>
   );
 };
