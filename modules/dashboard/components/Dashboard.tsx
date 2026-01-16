@@ -5,7 +5,6 @@ import Contributions from "./Contributions";
 
 import Breakline from "@/common/components/elements/Breakline";
 import { GITHUB_ACCOUNTS } from "@/common/constants/github";
-import { MONKEYTYPE_ACCOUNT } from "@/common/constants/monkeytype";
 import { CODEWARS_ACCOUNT } from "@/common/constants/codewars";
 import Umami from "./Umami";
 
