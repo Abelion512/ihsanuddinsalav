@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { revalidateTag } from "next/cache";
 import crypto from "crypto";
 
-export async function POST(request: NextRequest) {
+export const POST = async (request: NextRequest) => {
   try {
     const payload = await request.text();
     const signature = request.headers.get("x-hub-signature-256");
@@ -37,4 +37,4 @@ export async function POST(request: NextRequest) {
       { status: 500 },
     );
   }
-}
+};
