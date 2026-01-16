@@ -35,13 +35,13 @@ const EducationCard = ({
             </span>
             <span>{major}</span>
             {GPA && (
-              <>
+              <div className="flex gap-2">
                 <span className="hidden text-neutral-300 dark:text-neutral-700 md:block">
                   •
                 </span>
                 <span>GPA: </span>
                 <span>{GPA}</span>
-              </>
+              </div>
             )}
           </div>
           <div className="flex flex-col gap-1 text-[12px] md:flex-row md:gap-2">

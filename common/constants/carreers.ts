@@ -18,12 +18,13 @@ export const CAREERS: CareerProps[] = [
       "Collaborated with frontend and product teams to ensure smooth functionality and seamless user experience.",
     ],
     lessons_learned: [
-      "Deepened understanding of Go's concurrency model and clean architecture in a production environment.",
-      "Learned how to handle complex B2B/B2G business logic and secure data processing.",
+      "Deepened understanding of Go's concurrency model and Clean Architecture within a production environment.",
+      "Gained hands-on experience in implementing Agile Scrum methodologies to streamline development workflows.",
+      "Learned to collaborate effectively within a professional development team to achieve collective project goals.",
     ],
     impact: [
-      "Successfully automated the internal attendance system, reducing manual reporting time by 50%.",
-      "Improved API response times for internal tools through optimized database queries.",
+      "Developed core APIs for essential functionalities, including clock-in/clock-out systems, leave management (listing and requesting), and employee profile management (GET/UPDATE).",
+      "Improved system reliability for internal tools by optimizing database queries for employee records and leave history.",
     ],
     isShow: true,
   },
