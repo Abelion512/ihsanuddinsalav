@@ -52,7 +52,7 @@ const getCachedGithubData = unstable_cache(
   async (username: string, token: string) => fetchGithubData(username, token),
   ["github-stats-cache-key"],
   {
-    revalidate: 30,
+    revalidate: 3600,
     tags: ["github-stats-tag"],
   },
 );
