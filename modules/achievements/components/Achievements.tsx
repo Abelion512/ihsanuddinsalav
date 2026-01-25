@@ -18,10 +18,7 @@ const Achievements = () => {
   const t = useTranslations("AchievementsPage");
 
   const params = useSearchParams();
-  const [filter, setFilter] = useState({
-    category: params.get("category") || "",
-    search: params.get("search") || "",
-  });
+
   const category = params.get("category");
   const search = params.get("search");
 
@@ -31,13 +28,11 @@ const Achievements = () => {
   if (category) queryParams.append("category", category);
   if (search) queryParams.append("search", search);
 
-  if (queryParams.toString()) {
-    apiUrl += `?${queryParams.toString()}`;
-  }
+  if (queryParams.toString()) apiUrl += `?${queryParams.toString()}`;
 
   const { data, isLoading, error } = useSWR(apiUrl, fetcher);
 
-  const filteredAchievements: AchievementItem[] = data
+  const filteredAchievements: AchievementItem[] = (data || [])
     ?.filter(
       (item: AchievementItem) =>
         item?.is_show && (!category || item?.category === category),
@@ -62,7 +57,7 @@ const Achievements = () => {
         <EmptyState message={t("no_data")} />
       )}
 
-      {!isLoading && !error && filteredAchievements.length !== 0 && (
+      {!isLoading && !error && filteredAchievements?.length !== 0 && (
         <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
           {filteredAchievements?.map((item, index) => (
             <motion.div
@@ -71,7 +66,7 @@ const Achievements = () => {
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.3, delay: index * 0.1 }}
             >
-              <AchievementCard key={index} {...item} />
+              <AchievementCard {...item} />
             </motion.div>
           ))}
         </div>
