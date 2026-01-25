@@ -16,7 +16,9 @@ const AchievementCard = ({
   image,
   url_credential,
 }: AchievementItem) => {
-  const issueDate = format(parseISO(issue_date), "MMMM yyyy");
+  const issueDate = issue_date
+    ? format(parseISO(issue_date), "MMMM yyyy")
+    : "Date unknown";
 
   const t = useTranslations("AchievementsPage");
 
