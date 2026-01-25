@@ -1,6 +1,6 @@
 import { BiLogoPostgresql } from "react-icons/bi";
 import { BsFillBootstrapFill, BsRobot } from "react-icons/bs";
-import { TbBrandFramerMotion } from "react-icons/tb";
+import { TbBeach, TbBrandFramerMotion } from "react-icons/tb";
 import { FaNpm, FaGolang } from "react-icons/fa6";
 import {
   SiCss3,
@@ -34,7 +34,12 @@ import {
   SiJest,
   SiDocker,
   SiKotlin,
+  SiJetpackcompose,
+  SiZod,
+  SiShadcnui,
+  SiAxios,
 } from "react-icons/si";
+import { RiShieldKeyholeFill } from "react-icons/ri";
 
 export type SkillProps = {
   [key: string]: {
@@ -88,7 +93,7 @@ export const STACKS: SkillProps = {
     icon: <SiVuedotjs size={iconSize} />,
     background: "bg-green-400",
     color: "text-green-400",
-    isActive: true,
+    isActive: false,
   },
   "React.js": {
     icon: <SiReact size={iconSize} />,
@@ -96,28 +101,64 @@ export const STACKS: SkillProps = {
     color: "text-cyan-400",
     isActive: true,
   },
+  Vite: {
+    icon: <SiVite size={iconSize} />,
+    background: "bg-purple-500",
+    color: "text-purple-500",
+    isActive: true,
+  },
+  "Astro.js": {
+    icon: <SiAstro size={iconSize} />,
+    background: "bg-violet-600",
+    color: "text-violet-600",
+    isActive: true,
+  },
+  "Shadcn UI": {
+    icon: <SiShadcnui size={iconSize} />,
+    background: "bg-neutral-800",
+    color: "text-neutral-800",
+    isActive: true,
+  },
+  "NextAuth.js": {
+    icon: <RiShieldKeyholeFill size={iconSize} />,
+    background: "bg-slate-800",
+    color: "text-slate-800",
+    isActive: true,
+  },
+  TanStack: {
+    icon: <TbBeach size={iconSize} />,
+    background: "bg-amber-500",
+    color: "text-amber-500",
+    isActive: true,
+  },
   "React Table": {
     icon: <SiReacttable size={iconSize} />,
     background: "bg-rose-600",
     color: "text-rose-600",
-    isActive: true,
+    isActive: false,
   },
   "React Hook Form": {
     icon: <SiReacthookform size={iconSize} />,
     background: "bg-pink-500",
     color: "text-pink-500",
-    isActive: true,
+    isActive: false,
   },
   "React Router": {
     icon: <SiReactrouter size={iconSize} />,
     background: "bg-red-500",
     color: "text-red-500",
+    isActive: false,
+  },
+  Axios: {
+    icon: <SiAxios size={iconSize} />,
+    background: "bg-violet-600",
+    color: "text-violet-600",
     isActive: true,
   },
-  Vite: {
-    icon: <SiVite size={iconSize} />,
-    background: "bg-purple-500",
-    color: "text-purple-500",
+  Zod: {
+    icon: <SiZod size={iconSize} />,
+    background: "bg-blue-600",
+    color: "text-blue-600",
     isActive: true,
   },
   "Framer Motion": {
@@ -132,10 +173,10 @@ export const STACKS: SkillProps = {
     color: "text-violet-500",
     isActive: true,
   },
-  "Astro.js": {
-    icon: <SiAstro size={iconSize} />,
-    background: "bg-violet-600",
-    color: "text-violet-600",
+  Prisma: {
+    icon: <SiPrisma size={iconSize} />,
+    background: "bg-teal-500",
+    color: "text-teal-500",
     isActive: true,
   },
   "Next.js": {
@@ -180,16 +221,16 @@ export const STACKS: SkillProps = {
     color: "text-red-700",
     isActive: true,
   },
-  Prisma: {
-    icon: <SiPrisma size={iconSize} />,
-    background: "bg-teal-500",
-    color: "text-teal-500",
-    isActive: true,
-  },
   Kotlin: {
     icon: <SiKotlin size={iconSize} />,
     background: "bg-violet-600",
     color: "text-violet-600",
+    isActive: true,
+  },
+  "Jetpack Compose": {
+    icon: <SiJetpackcompose size={iconSize} />,
+    background: "bg-cyan-800",
+    color: "text-cyan-800",
     isActive: true,
   },
   PostgreSql: {
@@ -208,7 +249,7 @@ export const STACKS: SkillProps = {
     icon: <SiMongodb size={iconSize} />,
     background: "bg-green-600",
     color: "text-green-600",
-    isActive: true,
+    isActive: false,
   },
   Firebase: {
     icon: <SiFirebase size={iconSize} />,
@@ -238,7 +279,7 @@ export const STACKS: SkillProps = {
     icon: <BsRobot size={iconSize} />,
     background: "bg-fuchsia-700",
     color: "text-fuchsia-700",
-    isActive: true,
+    isActive: false,
   },
   Npm: {
     icon: <FaNpm size={iconSize} />,

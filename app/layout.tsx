@@ -11,7 +11,8 @@ import Layouts from "@/common/components/layouts";
 import ThemeProviderContext from "@/common/stores/theme";
 import NextAuthProvider from "@/SessionProvider";
 import { METADATA } from "@/common/constants/metadata";
-import { onestSans } from "@/common/styles/fonts";
+import { inter } from "@/common/styles/fonts";
+import SkeletonThemeProvider from "@/SkeletonThemeProvider";
 
 export const metadata: Metadata = {
   metadataBase: new URL(
@@ -55,9 +56,9 @@ const RootLayout = async ({
         // data-domains="satriabahari.site"
         // data-website-id="8e2c9f27-a12b-48ca-8130-808ebe377aca"
       ></Script>
-      <body className={onestSans.className}>
+      <body className={inter.className}>
         <NextTopLoader
-          color="#4ade80"
+          color="#fbe400"
           initialPosition={0.08}
           crawlSpeed={200}
           height={3}
@@ -65,12 +66,14 @@ const RootLayout = async ({
           showSpinner={false}
           easing="ease"
           speed={200}
-          shadow="0 0 10px #4ade80,0 0 5px #86efac"
+          shadow="0 0 10px #fbe400,0 0 5px #ffffb8"
         />
         <NextIntlClientProvider messages={messages}>
           <NextAuthProvider session={session}>
             <ThemeProviderContext>
-              <Layouts>{children}</Layouts>
+              <SkeletonThemeProvider>
+                <Layouts>{children}</Layouts>
+              </SkeletonThemeProvider>
             </ThemeProviderContext>
           </NextAuthProvider>
         </NextIntlClientProvider>

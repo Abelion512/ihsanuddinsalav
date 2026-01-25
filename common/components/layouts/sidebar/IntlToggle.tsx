@@ -32,16 +32,14 @@ const IntlToggle = () => {
 
   return (
     <div className="flex items-center justify-center">
-      {/* Desktop */}
       <div
         className={`relative hidden items-center gap-1 rounded-full border-[1.5px] border-neutral-300 bg-neutral-100 p-1 dark:border-neutral-700 dark:bg-neutral-800 lg:flex ${
           isPending ? "pointer-events-none opacity-70" : ""
         }`}
         style={{ width: `${totalWidth + (locales.length - 1) * 4 + 10}px` }}
       >
-        {/* Sliding Background */}
         <motion.div
-          className="absolute bottom-1 top-1 w-10 rounded-full bg-green-500"
+          className="absolute bottom-1 top-1 w-10 rounded-full bg-primary"
           animate={{
             x: slidePosition + currentIndex * 4,
           }}
@@ -52,7 +50,6 @@ const IntlToggle = () => {
           }}
         />
 
-        {/* Locale Buttons */}
         {locales.map((locale, index) => (
           <motion.button
             key={locale.value}
@@ -65,7 +62,7 @@ const IntlToggle = () => {
             <motion.div
               className="flex flex-col items-center justify-center text-xs font-medium"
               animate={{
-                color: currentIndex === index ? "#FFFFFF" : "#737373",
+                color: currentIndex === index ? "#121212" : "#737373",
               }}
               transition={{ duration: 0.3, ease: "easeInOut" }}
             >
@@ -75,7 +72,6 @@ const IntlToggle = () => {
         ))}
       </div>
 
-      {/* Mobile */}
       <button
         className="flex items-center gap-2 rounded-full border-[1.5px] border-neutral-300 bg-neutral-100 p-1 transition duration-200 hover:scale-110 dark:border-neutral-700 dark:bg-neutral-800 lg:hidden"
         onClick={() =>
@@ -85,7 +81,7 @@ const IntlToggle = () => {
       >
         <motion.div
           transition={{ duration: 0.3, ease: "easeInOut" }}
-          className="flex h-8 w-8 items-center justify-center rounded-full bg-green-500 text-white"
+          className="flex h-8 w-8 items-center justify-center rounded-full bg-primary text-white"
         >
           {locales[(currentIndex + 1) % locales.length].flag}
         </motion.div>

@@ -8,7 +8,7 @@ import { ChatListProps } from "@/common/types/chat";
 
 interface ChatListPropsNew extends ChatListProps {
   onDeleteMessage: (id: string) => void;
-  onClickReply: (name: string) => void;
+  onClickReply: (name: string, email: string) => void;
   isWidget?: boolean;
 }
 
@@ -68,7 +68,7 @@ const ChatList = ({
   }, [isWidget]);
 
   return (
-    <div ref={chatListRef} className="h-96 space-y-5 overflow-y-auto py-4">
+    <div ref={chatListRef} className="h-[26rem] space-y-5 overflow-y-auto py-4">
       {messages?.map((chat, index) => (
         <ChatItem
           key={index}
