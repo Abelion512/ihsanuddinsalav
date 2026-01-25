@@ -5,6 +5,8 @@ import {
   getAllWebsiteData,
 } from "@/services/umami";
 
+export const dynamic = 'force-dynamic';
+
 export const GET = async (req: NextRequest) => {
   try {
     const domain = req.nextUrl.searchParams.get("domain");
