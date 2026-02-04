@@ -12,12 +12,17 @@ const config: Config = {
     extend: {
       colors: {
         primary: {
+          950: "#474100",
+          900: "#756c00",
+          800: "#A39600",
+          700: "#d1c000",
           DEFAULT: "#fbe400",
-          500: "#ffff2e",
-          400: "#ffff5c",
-          300: "#ffff8a",
-          200: "#ffffb8",
-          100: "#ffffe6",
+          500: "#ffee2e",
+          400: "#fff15c",
+          300: "#fff58a",
+          200: "#fff9b8",
+          100: "#fffde6",
+          50: "#fffef2",
         },
         dark: {
           DEFAULT: "#121212",
