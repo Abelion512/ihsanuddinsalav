@@ -5,6 +5,7 @@ import Container from "@/common/components/elements/Container";
 import PageHeading from "@/common/components/elements/PageHeading";
 import Achievements from "@/modules/achievements";
 import { METADATA } from "@/common/constants/metadata";
+import { Suspense } from "react";
 
 interface AchievementsPageProps {
   params: { locale: string };
@@ -33,7 +34,9 @@ const AchievementsPage = async ({
   return (
     <Container data-aos="fade-up">
       <PageHeading title={t("title")} description={t("description")} />
-      <Achievements />
+      <Suspense>
+        <Achievements />
+      </Suspense>
     </Container>
   );
 };
