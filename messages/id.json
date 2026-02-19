@@ -1,11 +1,11 @@
 {
   "HomePage": {
-    "intro": "Halo, saya Satria Bahari",
-    "location": "Berdomisili di Jambi, Indonesia 🇮🇩",
+    "intro": "Halo, saya Ihsanuddin Salav",
+    "location": "Berdomisili di [LOKASI_ANDA] 🇮🇩",
     "location_type": "Onsite",
     "resume": {
-      "paragraph_1": "Seorang Software Engineer dan kreator konten coding yang berdedikasi untuk membangun solusi digital yang berdampak. Saya spesialis dalam pengembangan platform web yang skalabel dan aplikasi mobile menggunakan tech stack modern, terutama Next.js, TypeScript, dan Native Android (Kotlin).",
-      "paragraph_2": "Fokus saya adalah merancang arsitektur perangkat lunak yang terstruktur dengan baik, mudah dipelihara, dan selaras dengan tujuan bisnis. Saya memadukan keahlian teknis dengan komunikasi proaktif dan kepemimpinan untuk memastikan setiap proyek memberikan kejelasan logis dan dampak nyata di dunia nyata."
+      "paragraph_1": "Seorang developer dan antusias AI yang fokus pada pembangunan sistem agentic dan alur kerja otomasi. Sebagai Vibe Coder, saya suka mengeksplorasi platform AI mutakhir untuk membangun solusi yang efisien, inovatif, dan berdampak.",
+      "paragraph_2": "Saat ini saya adalah seorang mahasiswa, yang berdedikasi untuk belajar dan membangun fondasi yang kuat dalam pengembangan berbasis AI. Saya fokus pada pembuatan sistem yang tidak hanya fungsional, tetapi juga memberikan \"vibe\" yang mulus dan efisiensi melalui otomasi."
     },
     "skills": {
       "title": "Keahlian",
@@ -22,10 +22,10 @@
     "title": "Tentang",
     "description": "Pengenalan singkat mengenai siapa saya.",
     "resume": {
-      "paragraph_1": "Saya Satria Bahari, seorang Software Engineer yang berbasis di Jambi, berdedikasi untuk membangun solusi digital yang berdampak. Saya spesialis dalam pengembangan platform web dan aplikasi mobile menggunakan tech stack modern, termasuk Next.js, TypeScript, dan pengembangan Android native dengan Kotlin.",
-      "paragraph_2": "Fokus utama saya adalah merancang arsitektur perangkat lunak yang tidak hanya berfungsi tetapi juga terstruktur dengan baik, mudah dipelihara, dan skalabel untuk memenuhi kebutuhan bisnis. Saya percaya bahwa kode berkualitas tinggi harus berjalan beriringan dengan efisiensi sistem dan kejelasan logis.",
-      "paragraph_3": "Saya memadukan keahlian teknis dengan komunikasi proaktif, berpikir kritis, dan manajemen waktu yang efektif. Saya berkembang dalam lingkungan kolaboratif dan memanfaatkan keterampilan kepemimpinan untuk memastikan setiap proyek memberikan hasil optimal dan dampak nyata.",
-      "paragraph_4": "Salam hangat,"
+      "paragraph_1": "Saya Ihsanuddin Salav, seorang developer dan antusias AI yang fokus pada pembangunan sistem agentic dan alur kerja otomasi. Sebagai Vibe Coder, saya suka mengeksplorasi platform AI mutakhir untuk membangun solusi yang efisien, inovatif, dan berdampak.",
+      "paragraph_2": "Saat ini saya masih berstatus mahasiswa, saya sangat tertarik pada persimpangan antara AI dan rekayasa perangkat lunak. Saya percaya bahwa masa depan pengembangan terletak pada otomasi cerdas dan arsitektur agentic yang dapat berpikir dan bertindak secara mandiri untuk menyelesaikan masalah kompleks.",
+      "paragraph_3": "Saya memadukan rasa ingin tahu teknis dengan fokus pada 'vibes'—memastikan bahwa setiap solusi yang saya bangun tidak hanya kuat tetapi juga intuitif dan menyenangkan untuk digunakan. Saya terus belajar dan membangun portofolio saya seiring perjalanan studi saya.",
+      "paragraph_4": "Salam hangat,\n\nIhsanuddin Salav"
     },
     "career": {
       "title": "Karier",
@@ -207,7 +207,7 @@
   "Footer": {
     "hire": "Rekrut saya.",
     "copyright_1": "HAK CIPTA © ",
-    "copyright_2": "Satria Bahari. Seluruh hak cipta dilindungi undang-undang."
+    "copyright_2": "Ihsanuddin Salav. Seluruh hak cipta dilindungi undang-undang."
   },
   "LocaleSwitcher": {
     "en": "🇺🇸",
