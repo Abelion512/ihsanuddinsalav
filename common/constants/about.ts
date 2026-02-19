@@ -1,9 +1,9 @@
 export const ABOUT = [
-    "I'm Satria Bahari, a Jambi based Software Engineer dedicated to building impactful digital solutions. I specialize in developing web platforms and mobile applications using a modern tech stack, including Next.js, TypeScript, and native Android development with Kotlin.",
+    "I'm Ihsanuddin Salav, a developer and AI enthusiast focused on building agentic systems and automation workflows. As a Vibe Coder, I love exploring cutting-edge AI platforms to build efficient, innovative, and impactful solutions.",
 
-    "My primary focus is crafting software architecture that doesn't just work but is well structured, maintainable, and scalable to meet business needs. I believe that high-quality code must go hand-in-hand with system efficiency and logical clarity.",
+    "My focus is on the intersection of AI and software engineering. I believe that the future of development lies in intelligent automation and agentic architectures that can think and act autonomously to solve complex problems.",
     
-    "I blend technical expertise with proactive communication, critical thinking, and effective time management. I thrive in collaborative environments and leverage leadership skills to ensure every project delivers optimal results and a real-world impact.",
+    "Currently a student, I am dedicated to learning and building a strong foundation in AI-driven development. I focus on creating systems that are not just functional, but also provide a seamless \"vibe\" and efficiency through automation.",
 
     "Best Regards,"
 ]

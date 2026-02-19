@@ -6,7 +6,7 @@ import { METADATA } from "@/common/constants/metadata";
 export const metadata: Metadata = {
   title: `Privacy Policy ${METADATA.exTitle}`,
   description:
-    "Privacy Policy for Satria Bahari's Portfolio App regarding TikTok API integration",
+    "Privacy Policy for Ihsanuddin Salav's Portfolio App regarding TikTok API integration",
   keywords: "portfolio frontend developer, privacy policy, tiktok api",
   alternates: {
     canonical: `${process.env.DOMAIN}/privacy-policy`,
@@ -39,7 +39,7 @@ const PrivacyPolicyPage = () => {
           </h2>
           <p>
             The App utilizes the TikTok Display API to fetch and show the
-            developer&apos;s (Satria Bahari) public TikTok content for
+            developer&apos;s (Ihsanuddin Salav) public TikTok content for
             professional display purposes.
           </p>
           <ul className="ml-6 list-disc space-y-2">

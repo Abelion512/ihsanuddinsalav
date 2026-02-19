@@ -1,16 +1,16 @@
 export const METADATA = {
-  creator: "Satria Bahari",
-  description: "Personal website, portfolio, blog",
-  keyword: "satria, satria bahari",
+  creator: "Ihsanuddin Salav",
+  description: "Personal website, portfolio, blog focused on Agentic Systems and Automation",
+  keyword: "ihsanuddin, ihsanuddin salav, vibe coder, agentic systems, automation",
   authors: {
-    name: "Satria Bahari",
+    name: "Ihsanuddin Salav",
     url: process.env.DOMAIN,
   },
   openGraph: {
     url: process.env.DOMAIN,
-    siteName: "Satria Bahari",
+    siteName: "Ihsanuddin Salav",
     locale: "id-ID",
   },
-  exTitle: "| Satria Bahari",
-  profile: "/images/satria.jpg",
+  exTitle: "| Ihsanuddin Salav",
+  profile: "/images/placeholder.webp",
 };

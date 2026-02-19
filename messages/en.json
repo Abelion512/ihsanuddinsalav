@@ -1,11 +1,11 @@
 {
   "HomePage": {
-    "intro": "Hi, I'm Satria Bahari",
-    "location": "Based in Jambi, Indonesia 🇮🇩",
+    "intro": "Hi, I'm Ihsanuddin Salav",
+    "location": "Based in [YOUR_LOCATION] 🇮🇩",
     "location_type": "Onsite",
     "resume": {
-      "paragraph_1": "A Software Engineer and coding content creator dedicated to building impactful digital solutions. I specialize in developing scalable web platforms and mobile applications using a modern tech stack, primarily Next.js, TypeScript, and Native Android (Kotlin).",
-      "paragraph_2": "My focus is on crafting software architecture that is well-structured, maintainable, and aligned with business goals. I combine technical expertise with proactive communication and leadership to ensure every project delivers logical clarity and a meaningful real-world impact."
+      "paragraph_1": "I'm a developer and AI enthusiast focused on building agentic systems and automation workflows. As a Vibe Coder, I love exploring cutting-edge AI platforms to build efficient, innovative, and impactful solutions.",
+      "paragraph_2": "Currently a student, I am dedicated to learning and building a strong foundation in AI-driven development. I focus on creating systems that are not just functional, but also provide a seamless \"vibe\" and efficiency through automation."
     },
     "skills": {
       "title": "Skills",
@@ -22,10 +22,10 @@
     "title": "About",
     "description": "A brief introduction to who I am.",
     "resume": {
-      "paragraph_1": "I'm Satria Bahari, a Jambi-based Software Engineer dedicated to building impactful digital solutions. I specialize in developing web platforms and mobile applications using a modern tech stack, including Next.js, TypeScript, and native Android development with Kotlin.",
-      "paragraph_2": "My primary focus is crafting software architecture that doesn't just work but is well-structured, maintainable, and scalable to meet business needs. I believe that high-quality code must go hand-in-hand with system efficiency and logical clarity.",
-      "paragraph_3": "I blend technical expertise with proactive communication, critical thinking, and effective time management. I thrive in collaborative environments and leverage leadership skills to ensure every project delivers optimal results and a real-world impact.",
-      "paragraph_4": "Best regards,"
+      "paragraph_1": "I'm Ihsanuddin Salav, a developer and AI enthusiast focused on building agentic systems and automation workflows. As a Vibe Coder, I love exploring cutting-edge AI platforms to build efficient, innovative, and impactful solutions.",
+      "paragraph_2": "Currently a student, I am passionate about the intersection of AI and software engineering. I believe that the future of development lies in intelligent automation and agentic architectures that can think and act autonomously to solve complex problems.",
+      "paragraph_3": "I blend technical curiosity with a focus on 'vibes'—ensuring that every solution I build is not only powerful but also intuitive and delightful to use. I'm constantly learning and building my portfolio as I journey through my studies.",
+      "paragraph_4": "Best regards,\n\nIhsanuddin Salav"
     },
     "career": {
       "title": "Career",
@@ -207,7 +207,7 @@
   "Footer": {
     "hire": "Hire me.",
     "copyright_1": "COPYRIGHT © ",
-    "copyright_2": "Satria Bahari. All rights reserved."
+    "copyright_2": "Ihsanuddin Salav. All rights reserved."
   },
   "LocaleSwitcher": {
     "en": "🇺🇸",
