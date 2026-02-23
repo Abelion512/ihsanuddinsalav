@@ -14,7 +14,7 @@ def run():
         # Home Page (ID)
         print("Navigating to /id...")
         try:
-            page.goto("http://localhost:3000/id", wait_until="networkidle")
+            page.goto("http://localhost:9999/id", wait_until="networkidle")
             time.sleep(5)
             page.screenshot(path="verification/home_id.png", full_page=True)
             print("Home ID screenshot saved.")
@@ -24,7 +24,7 @@ def run():
         # About Page (ID)
         print("Navigating to /id/about...")
         try:
-            page.goto("http://localhost:3000/id/about", wait_until="networkidle")
+            page.goto("http://localhost:9999/id/about", wait_until="networkidle")
             time.sleep(5)
             page.screenshot(path="verification/about_id.png", full_page=True)
             print("About ID screenshot saved.")
